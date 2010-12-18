@@ -24,7 +24,7 @@
         );
     }
     
-    Load the DbRouting service by including the service container configuration in your config
+### Load the DbRouting service by including the service container configuration in your config
     
     # app/config/config.yml
     # ...
@@ -32,7 +32,7 @@
         - { resource: DbRoutingBundle/Resources/config/routing.xml }
 
 
-    and add the tableName to your routing.yml
+### and add the tableName to your routing.yml
     
     # app/config/routing.yml
     # ...
