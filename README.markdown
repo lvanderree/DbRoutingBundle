@@ -29,7 +29,7 @@
     # app/config/config.yml
     # ...
     imports:
-        - { resource: DbRoutingBundle/Resources/config/routing.xml }
+        - { resource: @DbRoutingBundle/Resources/config/routing.xml }
 
 
 ### and add the tableName to your routing.yml

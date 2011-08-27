@@ -5,8 +5,8 @@ namespace Bundle\DbRoutingBundle\Routing\Loader;
 use Doctrine\ORM\EntityManager,
     Symfony\Component\Routing\RouteCollection,
     Symfony\Component\Routing\Route,
-    Symfony\Component\Routing\Loader\Loader;
-
+	Symfony\Component\Config\Loader\Loader;
+	
 /*
  * This file is made by Leon
  *
